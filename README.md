@@ -7,7 +7,7 @@ Bind configuration to process.env for easy manipulation of modules that use proc
 This simple package is built on top of the work of https://www.npmjs.org/package/config.
 Please refer to config's documentation for use.
 
-npm install envify
+npm install node-envify
 
 Envify will bind all first level basic types to process.env
 
