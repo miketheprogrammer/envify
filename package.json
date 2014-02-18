@@ -1,0 +1,26 @@
+{
+  "name": "envify",
+  "version": "1.0.0",
+  "description": "Bind configuration to process.env for easy manipulation of modules that use process.env for configuration. Simplifies or execution line in automated builds. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=default DEBUG=envify node test.js && NODE_ENV=staging DEBUG=envify node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/miketheprogrammer/envify.git"
+  },
+  "author": "Michael Hernandez -- michael.hernandez1988@gmail.com",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/miketheprogrammer/envify/issues"
+  },
+  "homepage": "https://github.com/miketheprogrammer/envify",
+  "devDependencies": {
+    "tape": "~2.4.2",
+    "debug": "~0.7.4"
+  },
+  "dependencies": {
+    "config": "~0.4.35"
+  }
+}
