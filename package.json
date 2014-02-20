@@ -1,6 +1,6 @@
 {
   "name": "node-envify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bind configuration to process.env for easy manipulation of modules that use process.env for configuration. Simplifies or execution line in automated builds. ",
   "main": "index.js",
   "scripts": {
