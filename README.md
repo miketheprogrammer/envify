@@ -21,3 +21,7 @@ This is great for modules and codebases that depend on process.env for configura
 your shell execution line, or your code by copying config variables into process.env;
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/miketheprogrammer/envify/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
